@@ -1,4 +1,4 @@
-# Chatbot-using-RASA
+# Chatbot-using-RASA Deployed On Messenger
 Creating a chatbot with Rasa stack and Python
 
 Setup:
