@@ -4,10 +4,10 @@ from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.utils import EndpointConfig
 
 input_channel = FacebookInput(
-    fb_verify="MoodBot",
+    fb_verify="<any string>",
     # you need tell facebook this token, to confirm your URL
-    fb_secret="f12e71394b4b95e1ae348a8023b72855",  # your app secret
-    fb_access_token="EAAGH6Mgz3VoBAHaZC3jSd7bjPBkeJci75sBidNIxOje8dMD82dvglplUHWRVjZBDUGyTZCxppIbcSyUoHua2MZBHXoZC0MBJy7mJyVtyWKjeG9ehnAn4hggpSTbknLjCSusZCRR0pwsjASTGoBFgnVZBeTREBxi0xPPQlzn0l1ms2aH5pM3IR4e"
+    fb_secret="",  # your app secret
+    fb_access_token=""
     # token for the page you subscribed to
 )
 
