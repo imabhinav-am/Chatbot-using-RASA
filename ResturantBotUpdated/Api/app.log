@@ -1,0 +1,38 @@
+Exception on /message [POST]
+Traceback (most recent call last):
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/abhi/Study/github/Chatbot-using-RASA/ResturantBot1/Api/index.py", line 59, in api_message
+    if request.headers['Content-Type'] == 'text/plain':
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/werkzeug/datastructures.py", line 1353, in __getitem__
+    return _unicodify_header_value(self.environ[key])
+KeyError: 'CONTENT_TYPE'
+Exception on /message [POST]
+Traceback (most recent call last):
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/abhi/Study/github/Chatbot-using-RASA/ResturantBot1/Api/index.py", line 59, in api_message
+    if request.headers['Content-Type'] == 'text/plain':
+  File "/home/abhi/anaconda3/envs/bot/lib/python3.6/site-packages/werkzeug/datastructures.py", line 1353, in __getitem__
+    return _unicodify_header_value(self.environ[key])
+KeyError: 'CONTENT_TYPE'
